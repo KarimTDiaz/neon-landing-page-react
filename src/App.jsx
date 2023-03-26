@@ -1,5 +1,14 @@
+import BodyContainer from "./components/body-container/BodyContainer";
+import { GlobalStyle } from "./styles/globalStyles"
+
 const App = () => {
-	return <img src='/logo.svg' alt='' />;
+	return (
+		<>
+			<GlobalStyle />
+			<BodyContainer />
+
+		</>
+	)
 };
 
 export default App;
