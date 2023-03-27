@@ -1,13 +1,17 @@
-import { ButtonContainer, StyledButtonTab } from "./styles";
+import { ButtonContainer, StyledButtonTab } from './styles';
 
-const ButtonTab = ({ data }) => {
-    return (
-        <ButtonContainer>
-            <StyledButtonTab>
-                {data}
-            </StyledButtonTab>
-        </ButtonContainer>
-    );
-}
+const ButtonTab = ({ data, index, setTabSelected }) => {
+	return (
+		<ButtonContainer>
+			<StyledButtonTab
+				onClick={() => {
+					setTabSelected(index);
+				}}
+			>
+				{data}
+			</StyledButtonTab>
+		</ButtonContainer>
+	);
+};
 
-export default ButtonTab
+export default ButtonTab;

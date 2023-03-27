@@ -1,14 +1,30 @@
-import { TABS, TABS_INFO } from "../../constants/consts"
-import ButtonTab from "../button-tab/ButtonTab"
-import { TabsButtons } from "./styles"
+import { TABS_INFO } from '../../constants/consts';
+import ButtonTab from '../button-tab/ButtonTab';
+import CardTabs from '../card-tabs/CardTabs';
+import { TabsButtons } from './styles';
+import { useState } from 'react';
 
 const Tabs = () => {
-    return <TabsButtons>
-        {TABS.map(tab => (
-            <ButtonTab data={tab} />
-        ))}
-    </TabsButtons>
+	const [tabSelected, setTabSelected] = useState(0);
+	console.log(TABS_INFO[tabSelected].cardInfo);
+	return (
+		<>
+			<TabsButtons>
+				{TABS_INFO.map((tab, index) => (
+					<ButtonTab
+						key={tab.id}
+						data={tab.tab}
+						index={index}
+						setTabSelected={setTabSelected}
+					/>
+				))}
+			</TabsButtons>
+			<CardTabs
+				items={TABS_INFO[tabSelected].cardInfo}
+				tabSelected={tabSelected}
+			/>
+		</>
+	);
+};
 
-}
-
-export default Tabs
+export default Tabs;

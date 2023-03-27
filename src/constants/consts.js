@@ -103,6 +103,25 @@ export const PLANS = [
         amount: 49,
         text: 'For teams building apps for many public & private users.',
         checkTitle: 'Features include:',
+        checkItems:[
+            {
+                id: v4(),
+                text: 'Unlimited placeholder texts',
+                
+            },
+            {
+                text: 'Consectetur adipiscing elit',
+                id: v4()
+            },
+            {
+                text: 'Excepteur sint occaecat cupidatat',
+                id: v4()
+            },
+            {
+                text: 'Officia deserunt mollit anim',
+                id: v4()
+            }
+        ],
         id: v4()
     },
     {
@@ -110,6 +129,32 @@ export const PLANS = [
         amount: 79,
         text: 'For teams building apps for many public & private users.',
         checkTitle: 'Everything in Starter, plus:',
+        checkItems:[
+            {
+                text: 'Consectetur adipiscing elit',
+                id: v4()
+            },
+            {
+                text: 'Consectetur adipiscing elit',
+                id: v4()
+            },
+            {
+                text: 'Excepteur sint occaecat cupidatat',
+                id: v4()
+            },
+            {
+                text: 'Officia deserunt mollit anim',
+                id: v4()
+            },
+            {
+                text: 'Excepteur sint occaecat cupidatat',
+                id: v4()
+            },
+            {
+                text: 'Officia deserunt mollit anim',
+                id: v4()
+            },
+        ],
         id: v4()
     },
     {
@@ -117,6 +162,24 @@ export const PLANS = [
         amount: 129,
         text: 'For teams building apps for many public & private users.',
         checkTitle: 'Everything in Business, plus:',
+        checkItems:[
+            {
+                text: 'Unlimited placeholder texts',
+                id: v4()
+            },
+            {
+                text: 'Consectetur adipiscing elit',
+                id: v4()
+            },
+            {
+                text: 'Excepteur sint occaecat cupidatat',
+                id: v4()
+            },
+            {
+                text: 'Officia deserunt mollit anim',
+                id: v4()
+            }
+        ],
         id: v4()
     }
 ]
@@ -202,148 +265,93 @@ export const FEATURES_CHECKLIST = [
     }
 ]
 
-export const PLANS_CHECKLIST = [
-    [
-        {
-            text: 'Unlimited placeholder texts',
-            id: v4()
-        },
-        {
-            text: 'Consectetur adipiscing elit',
-            id: v4()
-        },
-        {
-            text: 'Excepteur sint occaecat cupidatat',
-            id: v4()
-        },
-        {
-            text: 'Officia deserunt mollit anim',
-            id: v4()
-        }
-    ],
-    [
-        {
-            text: 'Consectetur adipiscing elit',
-            id: v4()
-        },
-        {
-            text: 'Consectetur adipiscing elit',
-            id: v4()
-        },
-        {
-            text: 'Excepteur sint occaecat cupidatat',
-            id: v4()
-        },
-        {
-            text: 'Officia deserunt mollit anim',
-            id: v4()
-        },
-        {
-            text: 'Excepteur sint occaecat cupidatat',
-            id: v4()
-        },
-        {
-            text: 'Officia deserunt mollit anim',
-            id: v4()
-        },
-
-    ],
-    [
-        {
-            text: 'Unlimited placeholder texts',
-            id: v4()
-        },
-        {
-            text: 'Consectetur adipiscing elit',
-            id: v4()
-        },
-        {
-            text: 'Excepteur sint occaecat cupidatat',
-            id: v4()
-        },
-        {
-            text: 'Officia deserunt mollit anim',
-            id: v4()
-        }
-    ],
-]
-
 export const TABS = ['For Developers', 'For Designers', 'For Founders', 'For Marketers']
 
+
 export const TABS_INFO = [
-    [
-        {
-            url: './public/images/icons-tabs/angular.svg',
-            resource: 'Neon Angular',
-        },
-        {
-            url: './public/images/icons-tabs/js.svg',
-            resource: 'Neon JS',
-        },
-        {
-            url: './public/images/icons-tabs/node.svg',
-            resource: 'Neon Node',
-        },
-        {
-            url: './public/images/icons-tabs/react.svg',
-            resource: 'Neon React',
-        }
-    ],
-    [
-        {
-            url: './public/images/icons-tabs/docker.svg',
-            resource: 'Neon Docker',
-        },
-        {
-            url: './public/images/icons-tabs/html5.svg',
-            resource: 'Neon Html5',
-        },
-        {
-            url: './public/images/icons-tabs/Medium.svg',
-            resource: 'Neon Medium',
-        },
-        {
-            url: './public/images/icons-tabs/github.svg',
-            resource: 'Neon Github',
-        }
-    ],
-    [
-        {
-            url: './public/images/icons-tabs/telegram.svg',
-            resource: 'Neon Telegram',
-        },
-        {
-            url: './public/images/icons-tabs/youtube.svg',
-            resource: 'Neon Youtube',
-        },
-        {
-            url: './public/images/icons-tabs/github.svg',
-            resource: 'Neon Github',
-        },
-        {
-            url: './public/images/icons-tabs/docs.svg',
-            resource: 'Neon Docs',
-        }
-    ],
-    [
-        {
-            url: './public/images/icons-tabs/spotify.svg',
-            resource: 'Neon Spotify',
-        },
-        {
-            url: './public/images/icons-tabs/Twitter.svg',
-            resource: 'Neon Twitter',
-        },
-        {
-            url: './public/images/icons-tabs/docs.svg',
-            resource: 'Neon Docs',
-        },
-        {
-            url: './public/images/icons-tabs/github.svg',
-            resource: 'Neon Github',
-        }
-    ]
-
-
-
+    {
+        tab:'For Developers',
+        cardInfo:[
+            {
+                url: './public/images/icons-tabs/angular.svg',
+                resource: 'Neon Angular',
+            },
+            {
+                url: './public/images/icons-tabs/js.svg',
+                resource: 'Neon JS',
+            },
+            {
+                url: './public/images/icons-tabs/node.svg',
+                resource: 'Neon Node',
+            },
+            {
+                url: './public/images/icons-tabs/react.svg',
+                resource: 'Neon React',
+            }
+        ]
+    },
+    {
+        tab:'For Designers',
+        cardInfo:[
+            {
+                url: './public/images/icons-tabs/docker.svg',
+                resource: 'Neon Docker',
+            },
+            {
+                url: './public/images/icons-tabs/html5.svg',
+                resource: 'Neon Html5',
+            },
+            {
+                url: './public/images/icons-tabs/Medium.svg',
+                resource: 'Neon Medium',
+            },
+            {
+                url: './public/images/icons-tabs/github.svg',
+                resource: 'Neon Github',
+            }
+        ]
+    },
+    {
+        tab:'For Founders',
+        cardInfo:[
+            {
+                url: './public/images/icons-tabs/telegram.svg',
+                resource: 'Neon Telegram',
+            },
+            {
+                url: './public/images/icons-tabs/youtube.svg',
+                resource: 'Neon Youtube',
+            },
+            {
+                url: './public/images/icons-tabs/github.svg',
+                resource: 'Neon Github',
+            },
+            {
+                url: './public/images/icons-tabs/docs.svg',
+                resource: 'Neon Docs',
+            }
+        ]
+    },
+    {
+        tab:'For Marketers',
+        cardInfo:[
+            {
+                url: './public/images/icons-tabs/spotify.svg',
+                resource: 'Neon Spotify',
+            },
+            {
+                url: './public/images/icons-tabs/Twitter.svg',
+                resource: 'Neon Twitter',
+            },
+            {
+                url: './public/images/icons-tabs/docs.svg',
+                resource: 'Neon Docs',
+            },
+            {
+                url: './public/images/icons-tabs/github.svg',
+                resource: 'Neon Github',
+            }
+        ]
+    }
+    
 ]
