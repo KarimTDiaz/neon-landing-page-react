@@ -273,74 +273,74 @@ export const TABS = ['For Developers', 'For Designers', 'For Founders', 'For Mar
 export const TABS_INFO = [
     [
         {
-            url:,
+            url: './public/images/icons-tabs/angular.svg',
+            resource: 'Neon Angular',
+        },
+        {
+            url: './public/images/icons-tabs/js.svg',
+            resource: 'Neon JS',
+        },
+        {
+            url: './public/images/icons-tabs/node.svg',
+            resource: 'Neon Node',
+        },
+        {
+            url: './public/images/icons-tabs/react.svg',
+            resource: 'Neon React',
+        }
+    ],
+    [
+        {
+            url: './public/images/icons-tabs/docker.svg',
+            resource: 'Neon Docker',
+        },
+        {
+            url: './public/images/icons-tabs/html5.svg',
+            resource: 'Neon Html5',
+        },
+        {
+            url: './public/images/icons-tabs/Medium.svg',
+            resource: 'Neon Medium',
+        },
+        {
+            url: './public/images/icons-tabs/github.svg',
+            resource: 'Neon Github',
+        }
+    ],
+    [
+        {
+            url: './public/images/icons-tabs/telegram.svg',
             resource: 'Neon Telegram',
         },
         {
-            url:,
+            url: './public/images/icons-tabs/youtube.svg',
+            resource: 'Neon Youtube',
+        },
+        {
+            url: './public/images/icons-tabs/github.svg',
             resource: 'Neon Github',
         },
         {
-            url:,
-            resource: 'Neon Docs',
-        },
-        {
-            url:,
-            resource: 'Neon Tutorials',
-        }
-    ],
-    [
-        {
-            url:,
-            resource: 'Neon Discord',
-        },
-        {
-            url:,
-            resource: 'Neon Medium',
-        },
-        {
-            url:,
-            resource: 'Neon Docs',
-        },
-        {
-            url:,
-            resource: 'Neon Tutorials',
-        }
-    ],
-    [
-        {
-            url:,
-            resource: 'Neon Telegram',
-        },
-        {
-            url:,
-            resource: 'Neon Discord',
-        },
-        {
-            url:,
-            resource: 'Neon Medium',
-        },
-        {
-            url:,
+            url: './public/images/icons-tabs/docs.svg',
             resource: 'Neon Docs',
         }
     ],
     [
         {
-            url:,
-            resource: 'Neon Telegram',
+            url: './public/images/icons-tabs/spotify.svg',
+            resource: 'Neon Spotify',
         },
         {
-            url:,
-            resource: 'Neon Medium',
+            url: './public/images/icons-tabs/Twitter.svg',
+            resource: 'Neon Twitter',
         },
         {
-            url:,
+            url: './public/images/icons-tabs/docs.svg',
+            resource: 'Neon Docs',
+        },
+        {
+            url: './public/images/icons-tabs/github.svg',
             resource: 'Neon Github',
-        },
-        {
-            url:,
-            resource: 'Neon Tutorials',
         }
     ]
 

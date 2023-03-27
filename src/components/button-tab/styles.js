@@ -18,8 +18,10 @@ height: 40px;
     border-radius:5rem;
 }
 `
-const StyledButtonLearn = styled.a`
-display: block;
+const StyledButtonTab = styled.a`
+display: flex;
+align-items:center ;
+justify-content: center;
 z-index: 10;
 width: 155px;
 height: 35px;
@@ -30,4 +32,4 @@ border-radius:5rem;
 `
 
 
-export { ButtonContainer, StyledButtonLearn }
+export { ButtonContainer, StyledButtonTab }

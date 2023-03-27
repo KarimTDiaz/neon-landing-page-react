@@ -1,12 +1,21 @@
-import SectionTitle from "../section-title/SectionTitle"
-import { FONT_SIZE, SECTION_TITLES } from "../../constants/consts"
-import ButtonLearn from "../button-learn/ButtonLearn"
-import ButtonTab from "../button-tab/ButtonTab"
-
+import SectionTitle from '../section-title/SectionTitle';
+import { FONT_SIZE, SECTION_TITLES } from '../../constants/consts';
+import { StyledResources } from './styles';
+import Tabs from '../tabs/Tabs';
 
 const SectionResources = () => {
-    return <><SectionTitle title={SECTION_TITLES.resources} size={FONT_SIZE.xxl} sizeDsktp={FONT_SIZE.xxlDsktp} />
-        <ButtonTab /></>
-}
+    return (
+        <>
+            <StyledResources>
+                <SectionTitle
+                    title={SECTION_TITLES.resources}
+                    size={FONT_SIZE.xxl}
+                    sizeDsktp={FONT_SIZE.xxlDsktp}
+                />
+                <Tabs />
+            </StyledResources>
+        </>
+    );
+};
 
-export default SectionResources
+export default SectionResources;

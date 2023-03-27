@@ -1,11 +1,11 @@
-import { ButtonContainer, StyledButtonLearn } from "./styles";
+import { ButtonContainer, StyledButtonTab } from "./styles";
 
-const ButtonTab = ({ items }) => {
+const ButtonTab = ({ data }) => {
     return (
         <ButtonContainer>
-            <StyledButtonLearn>
-                {items}
-            </StyledButtonLearn>
+            <StyledButtonTab>
+                {data}
+            </StyledButtonTab>
         </ButtonContainer>
     );
 }
