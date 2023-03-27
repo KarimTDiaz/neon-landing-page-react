@@ -16,8 +16,7 @@ margin-bottom: 5rem;
     bottom: 0;
     width: 80%;
     height: 1px;
-    background-color: ${COLORS.textColor};
-
+    background-color: #37415149;
 }
 `
 const SocialsItem = styled.li`

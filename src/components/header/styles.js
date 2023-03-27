@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { COLORS, FONT_SIZE } from "../../constants/consts";
 
 const HeaderContainer = styled.div`
-background-color: ${COLORS.bgColor};
 background-image: url('./images/hero-illustration.svg'),  linear-gradient(to top,#37415149,transparent,transparent, transparent );
 background-size: cover;
 background-repeat: no-repeat;

@@ -24,7 +24,7 @@ border-radius:5rem;
 `
 
 const LearnLink = styled.span`
-color:${COLORS.primaryColor}
+color:${COLORS.primaryColor};
 `
 
 export { StyledButtonLearn, LearnLink }

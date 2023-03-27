@@ -6,7 +6,7 @@ const Socials = () => {
         <section>
             <StyledSocials>
                 {SOCIALS.map(icon => (
-                    <SocialsItem>
+                    <SocialsItem key={icon.id}>
                         <SocialIcon src={icon.url} />
                     </SocialsItem>
                 ))}
