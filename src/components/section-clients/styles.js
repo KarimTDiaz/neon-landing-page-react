@@ -15,6 +15,13 @@ margin-right: auto;
 padding: 2rem 1rem;
 text-align: center;
 `
+const ClientsHead = styled.div`
+@media screen and (min-width:768px) {
+	width: 700px;
+margin-left: auto;
+margin-right: auto;	
+}
+`
 const ClientsGradient = styled.div`
 position: absolute;
 bottom: 0;
@@ -30,4 +37,4 @@ height: 300px;
 
 
 
-export { ClientsContainer, StyledClients, ClientsGradient }
+export { ClientsContainer, StyledClients, ClientsGradient, ClientsHead }

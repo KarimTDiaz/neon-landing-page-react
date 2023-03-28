@@ -1,12 +1,13 @@
 import { ButtonContainer, StyledButtonTab } from './styles';
 
-const ButtonTab = ({ data, index, setTabSelected }) => {
+const ButtonTab = ({ data, index, setTabSelected, isActive }) => {
 	return (
-		<ButtonContainer>
+		<ButtonContainer isActive={isActive}>
 			<StyledButtonTab
 				onClick={() => {
 					setTabSelected(index);
 				}}
+				isActive={isActive}
 			>
 				{data}
 			</StyledButtonTab>

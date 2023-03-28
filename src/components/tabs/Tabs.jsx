@@ -5,26 +5,26 @@ import { TabsButtons } from './styles';
 import { useState } from 'react';
 
 const Tabs = () => {
-	const [tabSelected, setTabSelected] = useState(0);
-	console.log(TABS_INFO[tabSelected].cardInfo);
-	return (
-		<>
-			<TabsButtons>
-				{TABS_INFO.map((tab, index) => (
-					<ButtonTab
-						key={tab.id}
-						data={tab.tab}
-						index={index}
-						setTabSelected={setTabSelected}
-					/>
-				))}
-			</TabsButtons>
-			<CardTabs
-				items={TABS_INFO[tabSelected].cardInfo}
-				tabSelected={tabSelected}
-			/>
-		</>
-	);
+    const [tabSelected, setTabSelected] = useState(0);
+    return (
+        <>
+            <TabsButtons>
+                {TABS_INFO.map((tab, index) => (
+                    <ButtonTab
+                        key={tab.id}
+                        data={tab.tab}
+                        index={index}
+                        setTabSelected={setTabSelected}
+                        isActive={tabSelected === index}
+                    />
+                ))}
+            </TabsButtons>
+            <CardTabs
+                items={TABS_INFO[tabSelected].cardInfo}
+                tabSelected={tabSelected}
+            />
+        </>
+    );
 };
 
 export default Tabs;

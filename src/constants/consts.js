@@ -7,7 +7,8 @@ export const COLORS = {
     primaryColor: '#2563eb',
     primaryColorSoft: '#60a5fa',
     secondaryColor: '#1f2937',
-    secondaryColorSoft: '#374151'
+    secondaryColorSoft: '#374151',
+    decoColor: '#a855f7'
 }
 
 export const FONT_SIZE = {
@@ -103,11 +104,11 @@ export const PLANS = [
         amount: 49,
         text: 'For teams building apps for many public & private users.',
         checkTitle: 'Features include:',
-        checkItems:[
+        checkItems: [
             {
                 id: v4(),
                 text: 'Unlimited placeholder texts',
-                
+
             },
             {
                 text: 'Consectetur adipiscing elit',
@@ -129,7 +130,7 @@ export const PLANS = [
         amount: 79,
         text: 'For teams building apps for many public & private users.',
         checkTitle: 'Everything in Starter, plus:',
-        checkItems:[
+        checkItems: [
             {
                 text: 'Consectetur adipiscing elit',
                 id: v4()
@@ -162,7 +163,7 @@ export const PLANS = [
         amount: 129,
         text: 'For teams building apps for many public & private users.',
         checkTitle: 'Everything in Business, plus:',
-        checkItems:[
+        checkItems: [
             {
                 text: 'Unlimited placeholder texts',
                 id: v4()
@@ -270,8 +271,8 @@ export const TABS = ['For Developers', 'For Designers', 'For Founders', 'For Mar
 
 export const TABS_INFO = [
     {
-        tab:'For Developers',
-        cardInfo:[
+        tab: 'For Developers',
+        cardInfo: [
             {
                 url: './public/images/icons-tabs/angular.svg',
                 resource: 'Neon Angular',
@@ -291,8 +292,8 @@ export const TABS_INFO = [
         ]
     },
     {
-        tab:'For Designers',
-        cardInfo:[
+        tab: 'For Designers',
+        cardInfo: [
             {
                 url: './public/images/icons-tabs/docker.svg',
                 resource: 'Neon Docker',
@@ -312,8 +313,8 @@ export const TABS_INFO = [
         ]
     },
     {
-        tab:'For Founders',
-        cardInfo:[
+        tab: 'For Founders',
+        cardInfo: [
             {
                 url: './public/images/icons-tabs/telegram.svg',
                 resource: 'Neon Telegram',
@@ -333,8 +334,8 @@ export const TABS_INFO = [
         ]
     },
     {
-        tab:'For Marketers',
-        cardInfo:[
+        tab: 'For Marketers',
+        cardInfo: [
             {
                 url: './public/images/icons-tabs/spotify.svg',
                 resource: 'Neon Spotify',
@@ -353,5 +354,5 @@ export const TABS_INFO = [
             }
         ]
     }
-    
+
 ]

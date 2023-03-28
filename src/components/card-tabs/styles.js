@@ -5,6 +5,9 @@ const TabCardsContainer = styled.ul`
 display: flex;
 flex-direction: column;
 gap: 1rem;
+@media screen and (min-width:768px) {
+    flex-direction: row;
+}
 `
 
 const StyledTabCard = styled.div`
@@ -22,4 +25,4 @@ font-weight: ${FONT_WEIGHT.l};
 color: ${COLORS.titleColor};
 `
 
-export {StyledTabCard, TabCardsContainer, TabCardData}
+export { StyledTabCard, TabCardsContainer, TabCardData }

@@ -4,6 +4,7 @@ import SectionFeatures from '../section-features/SectionFeatures';
 import SectionFocus from '../section-focus/SectionFocus';
 import SectionPlans from '../section-plans/SectionPlans';
 import SectionResources from '../section-resources/SectionResources';
+import SectionStarted from '../section-started/SectionStarted';
 import Socials from '../socials/Socials';
 const BodyContainer = () => {
     return (
@@ -15,6 +16,7 @@ const BodyContainer = () => {
             <SectionPlans />
             <SectionClients />
             <SectionResources />
+            <SectionStarted />
         </>
     );
 };
