@@ -5,7 +5,7 @@ const CheckList = ({ items }) => {
 		<ul>
 			{items.map(item => (
 				<StyledCheckItem key={item.id}>
-					<CheckIcon src='public/images/check.svg' alt='icono de check' />
+					<CheckIcon src='/images/check.svg' alt='icono de check' />
 					<CheckData>{item.text}</CheckData>
 				</StyledCheckItem>
 			))}

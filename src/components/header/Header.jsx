@@ -8,7 +8,6 @@ import {
 	HeaderDataBtnContainer,
 	HeaderContainer
 } from './styles';
-
 import Logo from '../logo/Logo';
 
 import ButtonBlue from '../button-blue/ButtonBlue';

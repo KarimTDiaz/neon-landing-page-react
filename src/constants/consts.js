@@ -56,42 +56,42 @@ export const SECTION_TEXTS = {
 
 export const SOCIALS = [
     {
-        url: './public/images/facebook.svg',
+        url: '/images/facebook.svg',
         id: v4()
     },
     {
-        url: './public/images/tinder.svg',
+        url: '/images/tinder.svg',
         id: v4()
     },
     {
-        url: './public/images/airbnb.svg',
+        url: '/images/airbnb.svg',
         id: v4()
     },
     {
-        url: './public/images/hubspot.svg',
+        url: '/images/hubspot.svg',
         id: v4()
     },
     {
-        url: './public/images/amazon.svg',
+        url: '/images/amazon.svg',
         id: v4()
     }
 ]
 
 export const FOCUS = [
     {
-        url: './public/images/icon-square.svg',
+        url: '/images/icon-square.svg',
         title: 'Ready for the future',
         text: 'A flexible foundation that evolves with complex ecosystem.',
         id: v4()
     },
     {
-        url: './public/images/icon-brackets.svg',
+        url: '/images/icon-brackets.svg',
         title: 'Ready for the future',
         text: 'A flexible foundation that evolves with complex ecosystem.',
         id: v4()
     },
     {
-        url: './public/images/icon-check-list.svg',
+        url: '/images/icon-check-list.svg',
         title: 'Ready for the future',
         text: 'A flexible foundation that evolves with complex ecosystem.',
         id: v4()
@@ -187,63 +187,63 @@ export const PLANS = [
 
 export const CLIENTS = [
     {
-        url: './public/images/testimonial-01.jpg',
+        url: '/images/testimonial-01.jpg',
         text: 'Compared to other offerings, Neon always has a head start and introduces bleeding edge features first.',
         user: 'Mark Luiss - ',
         company: 'Apprenda',
         id: v4()
     },
     {
-        url: './public/images/testimonial-02.jpg',
+        url: '/images/testimonial-02.jpg',
         text: 'Neon has made a huge impact on compliance, while helping us become more transparent.',
         user: 'Patrick Mills - ',
         company: 'AppDonkey',
         id: v4()
     },
     {
-        url: './public/images/testimonial-03.jpg',
+        url: '/images/testimonial-03.jpg',
         text: 'GitHub provides tools that are, in a sense, invisible. You don’t have to waste time trying to get them to work.',
         user: 'David Collison - ',
         company: 'BrainTwo',
         id: v4()
     },
     {
-        url: './public/images/testimonial-04.jpg',
+        url: '/images/testimonial-04.jpg',
         text: 'Neon is the tool devs. The more you can make work feel native for a developer, the more cool their experience.',
         user: 'Licia McFarland - ',
         company: 'Paytable',
         id: v4()
     },
     {
-        url: './public/images/testimonial-05.jpg',
+        url: '/images/testimonial-05.jpg',
         text: 'Neon comes into play during the entire software life cycle. It’s the de facto tool for anything related to our software.',
         user: 'Rossana Alecu - ',
         company: 'Bolt Money',
         id: v4()
     },
     {
-        url: './public/images/testimonial-06.jpg',
+        url: '/images/testimonial-06.jpg',
         text: 'I have no tech skills and with Neon I can actually make good looking apps with ease.',
         user: 'Max Corsano - ',
         company: 'MixTech',
         id: v4()
     },
     {
-        url: './public/images/testimonial-07.jpg',
+        url: '/images/testimonial-07.jpg',
         text: 'It s not just easier to get in touch with developers, it s also easier to bring in other team members.',
         user: 'Anna Pratt - ',
         company: 'Cloud Inc',
         id: v4()
     },
     {
-        url: './public/images/testimonial-08.jpg',
+        url: '/images/testimonial-08.jpg',
         text: 'Tools like Neon Advanced Security help keep our team lean. It makes us much more efficient.',
         user: 'Veerle Larson - ',
         company: 'Prinso',
         id: v4()
     },
     {
-        url: './public/images/testimonial-09.jpg',
+        url: '/images/testimonial-09.jpg',
         text: 'Neon enables speed and scale. We can work on bigger projects and finish them faster.',
         user: 'Ana Kennedy - ',
         company: 'Syntax Inc',
@@ -266,28 +266,32 @@ export const FEATURES_CHECKLIST = [
     }
 ]
 
-export const TABS = ['For Developers', 'For Designers', 'For Founders', 'For Marketers']
 
 
 export const TABS_INFO = [
     {
         tab: 'For Developers',
+        id:v4(),
         cardInfo: [
             {
-                url: './public/images/icons-tabs/angular.svg',
+                url: '/images/icons-tabs/angular.svg',
                 resource: 'Neon Angular',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/js.svg',
+                url: '/images/icons-tabs/js.svg',
                 resource: 'Neon JS',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/node.svg',
+                url: '/images/icons-tabs/node.svg',
                 resource: 'Neon Node',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/react.svg',
+                url: '/images/icons-tabs/react.svg',
                 resource: 'Neon React',
+                id:v4(),
             }
         ]
     },
@@ -295,20 +299,24 @@ export const TABS_INFO = [
         tab: 'For Designers',
         cardInfo: [
             {
-                url: './public/images/icons-tabs/docker.svg',
+                url: '/images/icons-tabs/docker.svg',
                 resource: 'Neon Docker',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/html5.svg',
+                url: '/images/icons-tabs/html5.svg',
                 resource: 'Neon Html5',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/Medium.svg',
+                url: '/images/icons-tabs/medium.svg',
                 resource: 'Neon Medium',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/github.svg',
+                url: '/images/icons-tabs/github.svg',
                 resource: 'Neon Github',
+                id:v4(),
             }
         ]
     },
@@ -316,20 +324,24 @@ export const TABS_INFO = [
         tab: 'For Founders',
         cardInfo: [
             {
-                url: './public/images/icons-tabs/telegram.svg',
+                url: '/images/icons-tabs/telegram.svg',
                 resource: 'Neon Telegram',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/youtube.svg',
+                url: '/images/icons-tabs/youtube.svg',
                 resource: 'Neon Youtube',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/github.svg',
+                url: '/images/icons-tabs/github.svg',
                 resource: 'Neon Github',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/docs.svg',
+                url: '/images/icons-tabs/docs.svg',
                 resource: 'Neon Docs',
+                id:v4(),
             }
         ]
     },
@@ -337,20 +349,24 @@ export const TABS_INFO = [
         tab: 'For Marketers',
         cardInfo: [
             {
-                url: './public/images/icons-tabs/spotify.svg',
+                url: '/images/icons-tabs/spotify.svg',
                 resource: 'Neon Spotify',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/Twitter.svg',
+                url: '/images/icons-tabs/twitter.svg',
                 resource: 'Neon Twitter',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/docs.svg',
+                url: '/images/icons-tabs/docs.svg',
                 resource: 'Neon Docs',
+                id:v4(),
             },
             {
-                url: './public/images/icons-tabs/github.svg',
+                url: '/images/icons-tabs/github.svg',
                 resource: 'Neon Github',
+                id:v4(),
             }
         ]
     }

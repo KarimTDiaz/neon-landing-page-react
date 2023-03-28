@@ -29,10 +29,7 @@ const SectionFeatures = () => {
 					<SectionText text={SECTION_TEXTS.features} size={FONT_SIZE.m} />
 				</FeaturedHead>
 				<FeaturesDataContainer>
-					<FeaturesImage
-						src='./public/images/features-02.png'
-						alt='Foto Features'
-					/>
+					<FeaturesImage src='/images/features-02.png' alt='Foto Features' />
 					<FeaturesCheckList>
 						<SectionTitle
 							title={SECTION_TITLES.standarized}

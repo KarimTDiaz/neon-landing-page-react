@@ -23,7 +23,7 @@ display: flex;
 align-items:center ;
 justify-content: center;
 padding: 0.5rem 1rem;
-font-size: ${FONT_SIZE.xxs};
+font-size: ${FONT_SIZE.xs};
 background-color: ${COLORS.secondaryColor};
 color:${({ isActive }) => isActive ? `${COLORS.primaryColor}` : `${COLORS.textColor}`};
 border-radius: 5rem;

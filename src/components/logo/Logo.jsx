@@ -1,7 +1,7 @@
-import { StyledLogo } from "./styles"
+import { StyledLogo } from './styles';
 
 const Logo = () => {
-    return <StyledLogo src="./public/images/logo.svg" alt="Logo" />
-}
+	return <StyledLogo src='/images/logo.svg' alt='Logo' />;
+};
 
-export default Logo
+export default Logo;

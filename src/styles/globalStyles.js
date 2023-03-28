@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { COLORS } from "../constants/consts";
+
 const GlobalStyle = createGlobalStyle`
 *,*::after,*::before{
     box-sizing: border-box;
