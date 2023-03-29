@@ -271,102 +271,105 @@ export const FEATURES_CHECKLIST = [
 export const TABS_INFO = [
     {
         tab: 'For Developers',
-        id:v4(),
+        id: v4(),
         cardInfo: [
             {
                 url: '/images/icons-tabs/angular.svg',
                 resource: 'Neon Angular',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/js.svg',
                 resource: 'Neon JS',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/node.svg',
                 resource: 'Neon Node',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/react.svg',
                 resource: 'Neon React',
-                id:v4(),
+                id: v4(),
             }
         ]
     },
     {
         tab: 'For Designers',
+        id: v4(),
         cardInfo: [
             {
                 url: '/images/icons-tabs/docker.svg',
                 resource: 'Neon Docker',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/html5.svg',
                 resource: 'Neon Html5',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/medium.svg',
                 resource: 'Neon Medium',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/github.svg',
                 resource: 'Neon Github',
-                id:v4(),
+                id: v4(),
             }
         ]
     },
     {
         tab: 'For Founders',
+        id: v4(),
         cardInfo: [
             {
                 url: '/images/icons-tabs/telegram.svg',
                 resource: 'Neon Telegram',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/youtube.svg',
                 resource: 'Neon Youtube',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/github.svg',
                 resource: 'Neon Github',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/docs.svg',
                 resource: 'Neon Docs',
-                id:v4(),
+                id: v4(),
             }
         ]
     },
     {
         tab: 'For Marketers',
+        id: v4(),
         cardInfo: [
             {
                 url: '/images/icons-tabs/spotify.svg',
                 resource: 'Neon Spotify',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/twitter.svg',
                 resource: 'Neon Twitter',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/docs.svg',
                 resource: 'Neon Docs',
-                id:v4(),
+                id: v4(),
             },
             {
                 url: '/images/icons-tabs/github.svg',
                 resource: 'Neon Github',
-                id:v4(),
+                id: v4(),
             }
         ]
     }

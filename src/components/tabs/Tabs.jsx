@@ -10,7 +10,7 @@ const Tabs = () => {
 		<>
 			<TabsButtons>
 				{TABS_INFO.map((tab, index) => (
-					<ButtonTab
+					< ButtonTab
 						key={tab.id}
 						data={tab.tab}
 						index={index}

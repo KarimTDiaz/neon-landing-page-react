@@ -1,3 +1,6 @@
+
+
+import { PlaneIcon } from '../../constants/icons';
 import { ButtonContainer, StyledButtonTab } from './styles';
 
 const ButtonTab = ({ data, index, setTabSelected, isActive }) => {
@@ -9,6 +12,7 @@ const ButtonTab = ({ data, index, setTabSelected, isActive }) => {
 				}}
 				isActive={isActive}
 			>
+				<PlaneIcon />
 				{data}
 			</StyledButtonTab>
 		</ButtonContainer>
